@@ -1,0 +1,400 @@
+/**/
+<style type="text/css">
+
+@import url(http://fonts.googleapis.com/css?family=Sacramento);
+/* リンク */
+a {
+  text-decoration:none;
+  font-weight:bold;
+  border-bottom:1px dashed #000;}
+
+a:hover {
+   font-weight:bold;
+   color:#000;
+   border-bottom:1px dashed #000;}
+
+span.hiduke{
+  font-family: 'Sacramento', cursive;}
+
+h2 {
+  color:#4C6CB3;
+  padding-left:10px;
+  font-size:150%;
+  font-family: 'Sacramento', cursive; }
+
+.atogaki {
+ font-size:90%;}/* フォーム */
+ 
+input[type],select{
+ padding:3px;
+ margin-top:8px;
+ color:#000000;
+ background-color:#ffffff;
+ border:dotted 1px #333333;
+ border-radius:2px;
+ outline:none;
+ font-family:serif;
+ font-size:12px;
+ line-height:150%; } 
+
+input[type]:focus,select:focus{
+ color:#cccccc;} 
+
+input[type="submit"],input[type="reset"]{
+ color:#000000;
+ box-shadow:none;
+ background:#ffffff;
+ border:1px solid #000000;} 
+
+input[type="submit"]:hover,input[type="reset"]:hover{
+ color:#cccccc;}
+
+
+html,body{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+
+input[type="submit"],input[type="reset"],button{
+ color:#000000;
+ background:#ffffff;
+ border:1px solid #000000;} 
+
+input[type="submit"]:hover,input[type="reset"],button:hover{ color:#cccccc;}
+
+.form input[type="submit"],button{
+	width: auto;
+        height:25pt;
+        box-shadow: none ;
+ /* ボタン幅 */}
+
+.header {
+  color:white;
+  background-position: 0% 0%;}@font-face{
+ font-family: はんなり明朝;
+ src: url('http://fonts.deepbluesea.jp/hannari/hannari_web.woff')
+ format("woff");}
+
+.moji {
+ font-family: "はんなり明朝", "源ノ角ゴシック ExtraLight", "ＭＳ Ｐゴシック", Osaka, "ＭＳ ゴシック", Gothic, sans-serif;}
+
+body {
+       font-size:90%;
+       font-family: Fontpoにほんご;
+       background-image: url("./img/Puzzle.jpg");
+       background-repeat:repeat;
+       background-attachment:fixed;}
+
+#main {
+       text-align:left;
+       font-size:90%;
+       line-height:1.3;
+       letter-spacing:1px;
+       padding:0;
+       margin:0;}
+#menu li a {
+       display:inline-block;
+       list-style:none;
+       text-align:center;
+       width:56px;
+       margin:0;
+       padding:5px 0px 5px 0px;
+       border-right:1px dotted #444;}
+
+.list_left {
+       border-left:1px dotted #444;}#menu {
+       line-height:1;
+       text-align:center;
+       font-size:90%;
+       letter-spacing:1.4px;
+       margin:10px 0px 15px 0px;
+       padding:0;
+      font-weight:bold;}
+
+a:hover {
+       color:#fff;
+       border:none;
+       text-decoration:none;
+       background-color:#00afcc;}
+@font-face{
+       font-family:Fontpoにほんご;
+src: url('http://fonts.deepbluesea.jp/nihongo/FontopoNIHONGO_web.woff')
+     format("woff");}
+#header {
+       font-size:130%;
+       font-weight:bold;
+       text-align:center;
+       color:#00afcc;
+       background-color:#fff;
+       margin:20px 10px 0px 10px;
+       border:1px dotted #444;
+       padding:5px 0px 5px 0px;}#honbun {
+       background-color:#fff;
+       margin:0px 10px 5px 10px;
+       border:1px dotted #444;
+       padding:20px 5px 20px 15px;}
+
+#url {
+       color:#0075c2;
+       margin:10px 0px 10px 10px;}
+#midashi {
+       font-size:110%;
+       font-weight:bold;
+       padding-left:5px;
+       border-radius:2px;
+       margin:0px 10px 5px 0px;
+       background-color:#fff;
+       border-top:1px solid #e5e4e6;
+       border-left:20px solid #00afcc;
+       border-bottom:1px solid #7d7d7d;
+       border-right:1px solid #afafb0;}
+
+#midashi2 {
+       font-size:110%;
+       font-weight:bold;
+       padding-left:5px;
+       border-radius:2px;
+       margin:0px 10px 5px 0px;
+       background-color:#fff;
+       border-top:1px solid #e5e4e6;
+       border-left:20px solid #00a1e9;
+       border-bottom:1px solid #7d7d7d;
+       border-right:1px solid #afafb0;}
+#midashi3 {
+       font-size:110%;
+       font-weight:bold;
+       padding-left:5px;
+       border-radius:2px;
+       margin:0px 10px 5px 0px;
+       background-color:#fff;
+       border-top:1px solid #e5e4e6;
+       border-left:20px solid #82cddd;
+       border-bottom:1px solid #7d7d7d;
+       border-right:1px solid #afafb0;}
+
+#midashi4 {
+       font-size:110%;
+       font-weight:bold;
+       padding-left:5px;
+       border-radius:2px;
+       margin:0px 10px 5px 0px;
+       background-color:#fff;
+       border-top:1px solid #e5e4e6;
+       border-left:20px solid #bbdbf3;
+       border-bottom:1px solid #7d7d7d;
+       border-right:1px solid #afafb0;}
+       
+#midashi5 {
+       font-size:110%;
+       font-weight:bold;
+       padding-left:5px;
+       border-radius:2px;
+       margin:0px 10px 5px 0px;
+       background-color:#fff;
+       border-top:1px solid #e5e4e6;
+       border-left:20px solid #28b9ff;
+       border-bottom:1px solid #7d7d7d;
+       border-right:1px solid #afafb0;}  
+       
+#midashi6 {
+       font-size:110%;
+       font-weight:bold;
+       padding-left:5px;
+       border-radius:2px;
+       margin:0px 10px 5px 0px;
+       background-color:#fff;
+       border-top:1px solid #e5e4e6;
+       border-left:20px solid #5ad6fa;
+       border-bottom:1px solid #7d7d7d;
+       border-right:1px solid #afafb0;} 
+ 
+br{
+    letter-spacing:0;}
+
+input[type],textarea,select{
+       padding:3px;
+       opacity:0.8;
+       font-family: Fontpoにほんご;
+       margin-top:8px;
+       color:#000;
+       background-color:#fff;
+       border:dotted 1px #000;
+       border-radius:2px;
+       outline:none;
+       font-size:12px;
+       line-height:150%; }
+
+input[type]:focus,textarea:focus,select:focus{
+       color:#ccc;} 
+
+input[type="submit"],input[type="reset"]{
+       color:#000;
+       opacity:0.8;
+       background:#fff;
+       font-family: Fontpoにほんご;
+       border:1px solid #000;} 
+
+input[type="submit"]:hover,input[type="reset"]:hover{
+       color:#fff;
+       background-color:#00afcc;}</pc_only>
+<smartphone>
+input[type],textarea,select{
+       padding:3px;
+       opacity:0.8;
+       font-family: Fontpoにほんご;
+       color:#000;
+       background-color:#f3f3f3;
+       border:none;
+       border-radius:2px;
+       outline:none;
+       font-family:serif;
+       font-size:12px;
+       line-height:150%; } 
+
+input[type]:focus,textarea:focus,select:focus{
+       color:#00afcc;} 
+input[type="submit"],input[type="reset"]{
+       color:#000;
+       background:#f3f3f3; 
+       margin-left:5px;
+       font-family: Fontpoにほんご;
+       border:none;
+       border-radius:2px;} 
+
+input[type="submit"]:hover,input[type="reset"]:hover{
+       color:#fff;
+       background-color:#00afcc;}
+</smartphone>
+.form input[type="text"] {
+       width: 65%;
+       font-family: Fontpoにほんご;
+       height:15pt; /* 入力枠幅 */}
+
+.form input[type="submit"] {
+       width: auto;
+       height:25pt; /* ボタン幅 */}
+
+.form input[type="select"]{
+       font-family: Fontpoにほんご;}
+
+.form {
+       margin-right:10px;
+       margin-bottom:5px;}
+#underline {
+       padding:1px;
+       border:1px solid #000;}
+
+#underline2 {
+       padding:1px;
+       border:1px dotted #000;}
+
+#underline3 {
+       padding:1px;
+       border:1px dashed #000;}
+
+#underline4 {
+       padding:1px;
+       border:3px double #000;}
+       
+       #heli { 
+    padding: 5px; 
+    border: 1px dotted #FFFFFF; 
+    background-color: #333333; 
+} 
+ 
+#myImage.jqp-solved { 
+    background-color: #6FBF46; 
+} 
+ 
+#myImage.jqp-wrapper { 
+    border-color: #000000; 
+    background-color: #D5EFF2; 
+} 
+ 
+#myImage.jqp-piece { 
+    border-color: #444444; 
+    color: #FFFFFF; 
+    font-size: 10px; 
+} 
+ 
+#myImage.jqp-piece:hover { 
+    border-style: solid; 
+    border-color: #000000; 
+} 
+ 
+#myImage.jqp-piece span { 
+    padding: 1px; 
+    background-color: #444444; 
+} 
+ 
+#myImage.jqp-piece:hover span { 
+    background-color: #000000; 
+} 
+ 
+#myImage.jqp-controls a { 
+    font-size: 10px; 
+    margin-right: 3px; 
+    padding: 2px; 
+    border-style: none; 
+    background-color: #3499D6; 
+    color: #FFFFFF; 
+} 
+ 
+#myImage.jqp-controls a:hover { 
+    background-color: #74C9F6; 
+} 
+ 
+#myImage.jqp-controls a.jqp-toggle,  
+#myImage.jqp-controls a.jqp-down { 
+    padding: 1px; 
+    border: 1px solid #BBBBDD; 
+    background-color: #0057BF; 
+} 
+ 
+#myImage.jqp-controls a.jqp-disabled { 
+    background-color: #195D8C; 
+    color: #397DAC; 
+    border-style: none; 
+    padding: 2px; 
+} 
+ 
+#myImage.jqp-solved .jqp-controls a.jqp-disabled { 
+    background-color: #49AF15; 
+    color: #69CF35; 
+    border-style: none; 
+    padding: 2px; 
+} 
+ 
+#myImage.jqp-controls span { 
+    font-size: 10px; 
+    color: #FFFFFF; 
+    padding: 0px; 
+    margin: 0px; 
+    margin-top: 5px; 
+} 
+ 
+#myImage.jqp-controls span.jqp-disabled { 
+    color: #AAAAAA; 
+} 
+ 
+#myImage.jqp-solved .jqp-controls span { 
+    background-color: transparent; 
+    border-style: none; 
+} 
+ 
+#myImage.jqp-controls span input { 
+    background-color: #777777; 
+    color: #FFFFFF; 
+    font-size: 10px; 
+    padding: 0px; 
+    padding-right: 1px; 
+    margin-left: 0px; 
+    font-weight: normal; 
+} 
+ 
+#myImage.jqp-controls span.jqp-disabled input { 
+    background-color: #555555; 
+    color: #888888; 
+} 
+ 
+#myImage.jqp-solved .jqp-controls span input { 
+    background-color: #8FDF56; 
+} 
+</style>
